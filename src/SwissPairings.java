@@ -48,10 +48,7 @@ public class SwissPairings{
 			// reset
 			orderhealth = 0;
 			valid = true;
-			
 		}
-		
 		return opt_order;
 	}
-
 }

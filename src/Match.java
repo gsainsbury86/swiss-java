@@ -15,9 +15,10 @@ public class Match{
 	}
 
 	public Player score(int p1games, int p2games){
-		if(p1games > 2 || p1games < 0 || p2games > 2 || p2games <0 || p1games+p2games > 3){
-			throw new NumberFormatException();
-		}
+		//TODO: Fix best of system
+		//if(p1games > 2 || p1games < 0 || p2games > 2 || p2games <0 || p1games+p2games > 3){
+		//	throw new NumberFormatException();
+		//}
 		
 		
 		this.setP1games(p1games);
